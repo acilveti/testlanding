@@ -27,19 +27,16 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Designed with student and teacher experience in mind" overTitle="All in one solution">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              LingoLounge platform brings a set of tools to upgrade the learning experience, though to be effective, easygoing, varied, and funny.{' '}
+              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> All of it, being leaded by the teacher experience.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="A completely free platform." overTitle="zero cost solution" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+             Due to our business and subscription model, we can bring to your classroom our platform without any cost{' '}
+              <strong>voluptate quo deleniti animi laboriosam</strong>. Only particular individuals, with premium subscriptions are required to pay, letting teaching business and its students enjoy the platform at 0 cost.
             </p>
             <ul>
               <li>Professional point 1</li>

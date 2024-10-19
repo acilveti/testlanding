@@ -14,21 +14,15 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Boost Your teaching with LingoLounge</CustomOverTitle>
+        <Heading>Elevate Your Teaching Business with Our Language Platform</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Enhance your students learning experience with tools that improve lesson quality and student engagement. Our platform works alongside your methods to boost student outcomes, helping you deliver more effective lessons. Set yourself apart from other educators and academies by providing an enriched learning environment that leads to higher profitability - all at zero cost.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            start now <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink>
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
