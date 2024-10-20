@@ -77,12 +77,9 @@ export default function Navbar({ items }: NavbarProps) {
             <NavItem key={singleItem.href} {...singleItem} />
           ))}
         </NavItemList>
-        <ColorSwitcherContainer>
-          <ColorSwitcher />
-        </ColorSwitcherContainer>
-        <HamburgerMenuWrapper>
+        {/* <HamburgerMenuWrapper>
           <HamburgerIcon aria-label="Toggle menu" onClick={toggle} />
-        </HamburgerMenuWrapper>
+        </HamburgerMenuWrapper> */}
       </Content>
     </NavbarContainer>
   );
@@ -116,10 +113,11 @@ const CustomButton = styled(Button)`
 const NavItemList = styled.div`
   display: flex;
   list-style: none;
+  margin-left: 1.25em;
 
-  ${media('<desktop')} {
-    display: none;
-  }
+  // ${media('<desktop')} {
+  //   display: none;
+  // }
 `;
 
 const HamburgerMenuWrapper = styled.div`
@@ -131,6 +129,7 @@ const HamburgerMenuWrapper = styled.div`
 const LogoWrapper = styled.a`
   display: flex;
   margin-right: auto;
+  //margin: 1.25em;
   text-decoration: none;
 
   color: rgb(var(--logoColor));
@@ -142,6 +141,7 @@ const NavItemWrapper = styled.li<Partial<SingleNavItem>>`
   font-size: 1.3rem;
   text-transform: uppercase;
   line-height: 2;
+  margin-left:1.25em;
 
   &:hover {
     background-color: ${(p) => (p.outlined ? 'rgb(var(--primary), 0.8)' : 'transparent')};

@@ -30,19 +30,17 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           {/* <Partners /> */}
           <BasicSection imageUrl="/demo-illustration-1.svg" title="Designed with student and teacher experience in mind" overTitle="All in one solution">
             <p>
-              LingoLounge platform brings a set of tools to upgrade the learning experience, though to be effective, easygoing, varied, and funny.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> All of it, being leaded by the teacher experience.
+              The LingoLounge platform is thoughtfully designed to enhance both student and teacher experiences. It offers a range of tools aimed at making learning more engaging, effective, and enjoyable. From easy-to-use features to a variety of interactive elements, the platform is built to ensure a seamless learning journey, all guided by the expertise of teachers.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Easy-to-Use Tools</li>
+              <li>Simple and Clear Design</li>
+              <li>Fun and Interactive Learning</li>
             </ul>
           </BasicSection>
           <BasicSection imageUrl="/image-6.png" title="A completely free platform." overTitle="zero cost solution" reversed>
             <p>
-             Due to our business and subscription model, we can bring to your classroom our platform without any cost{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Only particular individuals, with premium subscriptions are required to pay, letting teaching business and its students enjoy the platform at 0 cost.
+              A fully free platform for classrooms. Thanks to our business and subscription model, we offer our platform at no cost to teachers and students. Only users with premium subscriptions are required to pay, allowing schools and students to enjoy all features without any fees.
             </p>
           </BasicSection>
         </WhiteBackgroundContainer>
@@ -52,7 +50,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <PricingTablesSection />
           <Features />
           {/* <Testimonials /> */}
-          
+
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>
