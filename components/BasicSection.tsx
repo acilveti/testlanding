@@ -53,8 +53,8 @@ const ImageContainer = styled.div`
     display: block;
     content: '';
     width: 100%;
-    padding-bottom: calc((9 / 16) * 100%);
-    padding-top: calc((9 / 16) * 100%);
+    padding-bottom: calc((4 / 16) * 100%);
+    padding-top: calc((4 / 16) * 100%);
   }
 
   & > div {
@@ -88,7 +88,7 @@ const BasicSectionWrapper = styled(Container)`
     flex-direction: column;
 
     ${ImageContainer} {
-      margin: 0 0 2.5rem 0;
+      margin: 2.5rem 0 2.5rem 0;
     }
   }
 `;
