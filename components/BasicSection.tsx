@@ -22,7 +22,7 @@ export default function BasicSection({ imageUrl, title, overTitle, reversed, chi
         <RichText>{children}</RichText>
       </ContentContainer>
       <ImageContainer>
-        <NextImage src={imageUrl} alt={title} layout="fill" objectFit="cover" />
+        <NextImage src={imageUrl} alt={title} layout="fill" objectFit="contain" />
       </ImageContainer>
     </BasicSectionWrapper>
   );

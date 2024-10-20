@@ -38,7 +38,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Professional feature 3</li>
             </ul>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="A completely free platform." overTitle="zero cost solution" reversed>
+          <BasicSection imageUrl="/image-6.png" title="A completely free platform." overTitle="zero cost solution" reversed>
             <p>
              Due to our business and subscription model, we can bring to your classroom our platform without any cost{' '}
               <strong>voluptate quo deleniti animi laboriosam</strong>. Only particular individuals, with premium subscriptions are required to pay, letting teaching business and its students enjoy the platform at 0 cost.
