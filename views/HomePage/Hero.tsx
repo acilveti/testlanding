@@ -4,6 +4,7 @@ import Button from 'components/Button';
 import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
 import HeroIllustration from 'components/HeroIllustation';
+import NextImage from 'next/image';
 import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
@@ -26,8 +27,11 @@ export default function Hero() {
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
-        <HeroIllustration />
+        <NextImage src={"/demo-illustration-2.svg" } alt={"elevate"} layout="fill" objectFit="fill" />
       </ImageContainer>
+      {/* <ImageContainer>
+        <HeroIllustration />
+      </ImageContainer> */}
     </HeroWrapper>
   );
 }
@@ -57,23 +61,47 @@ const CustomButtonGroup = styled(ButtonGroup)`
 `;
 
 const ImageContainer = styled.div`
-  display: flex;
   flex: 1;
-  justify-content: flex-end;
-  align-items: flex-start;
 
-  svg {
-    max-width: 45rem;
+  position: relative;
+  &:before {
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: calc((9 / 16) * 100%);
+  }
+
+  & > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 
   ${media('<=desktop')} {
-    margin-top: 2rem;
-    justify-content: center;
-    svg {
-      max-width: 80%;
-    }
+    width: 100%;
   }
 `;
+
+// const ImageContainer = styled.div`
+//   display: flex;
+//   flex: 1;
+//   justify-content: flex-end;
+//   align-items: flex-start;
+
+//   svg {
+//     max-width: 45rem;
+//   }
+
+//   ${media('<=desktop')} {
+//     margin-top: 2rem;
+//     justify-content: center;
+//     svg {
+//       max-width: 80%;
+//     }
+//   }
+// `;
 
 const Description = styled.p`
   font-size: 1.8rem;

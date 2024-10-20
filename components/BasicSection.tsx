@@ -16,14 +16,14 @@ export interface BasicSectionProps {
 export default function BasicSection({ imageUrl, title, overTitle, reversed, children }: PropsWithChildren<BasicSectionProps>) {
   return (
     <BasicSectionWrapper reversed={reversed}>
-      <ImageContainer>
-        <NextImage src={imageUrl} alt={title} layout="fill" objectFit="cover" />
-      </ImageContainer>
       <ContentContainer>
         <CustomOverTitle>{overTitle}</CustomOverTitle>
         <Title>{title}</Title>
         <RichText>{children}</RichText>
       </ContentContainer>
+      <ImageContainer>
+        <NextImage src={imageUrl} alt={title} layout="fill" objectFit="cover" />
+      </ImageContainer>
     </BasicSectionWrapper>
   );
 }
@@ -77,7 +77,7 @@ type Props = Pick<BasicSectionProps, 'reversed'>;
 const BasicSectionWrapper = styled(Container)`
   display: flex;
   align-items: center;
-  flex-direction: ${(p: Props) => (p.reversed ? 'row-reverse' : 'row')};
+  flex-direction: ${(p: Props) => (p.reversed ? 'reverse' : 'row-reverse')};
 
   ${ImageContainer} {
     margin: ${(p: Props) => (p.reversed ? '0 0 0 5rem' : '0 5rem 0 0')};

@@ -26,23 +26,23 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
+          {/* <Partners /> */}
           <BasicSection imageUrl="/demo-illustration-1.svg" title="Designed with student and teacher experience in mind" overTitle="All in one solution">
             <p>
               LingoLounge platform brings a set of tools to upgrade the learning experience, though to be effective, easygoing, varied, and funny.{' '}
               <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> All of it, being leaded by the teacher experience.
-            </p>
-          </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="A completely free platform." overTitle="zero cost solution" reversed>
-            <p>
-             Due to our business and subscription model, we can bring to your classroom our platform without any cost{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Only particular individuals, with premium subscriptions are required to pay, letting teaching business and its students enjoy the platform at 0 cost.
             </p>
             <ul>
               <li>Professional point 1</li>
               <li>Professional remark 2</li>
               <li>Professional feature 3</li>
             </ul>
+          </BasicSection>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="A completely free platform." overTitle="zero cost solution" reversed>
+            <p>
+             Due to our business and subscription model, we can bring to your classroom our platform without any cost{' '}
+              <strong>voluptate quo deleniti animi laboriosam</strong>. Only particular individuals, with premium subscriptions are required to pay, letting teaching business and its students enjoy the platform at 0 cost.
+            </p>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
