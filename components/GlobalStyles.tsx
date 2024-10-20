@@ -14,11 +14,11 @@ export const GlobalStyle = createGlobalStyle`
 .next-light-theme {
   --background: 251,251,253;
   --secondBackground: 255,255,255;
-  --text: 10,18,30;
+  --text: 5, 45, 65;
   --textSecondary: 255,255,255;
   --tertiary: 1, 60, 88; /* moustache */
---secondary: 48, 132, 161; /* armchair */
---primary: 245, 162, 1; /* orange */
+  --secondary: 48, 132, 161; /* armchair */
+  --primary: 245, 162, 1; /* orange */
   --cardBackground: 255,255,255;
   --inputBackground: 255,255,255;
   --navbarBackground: 255,255,255;

@@ -12,23 +12,23 @@ const TABS = [
   {
     title: 'Elevate your business',
     description:
-      '<p>Increasing your customer retention and satisfaction due to a more modern, enjoyable and effective method, will bring a improvement for your teaching business, and differenciation from your competition.</p>',
+      '<p>Increase your customer retention and satisfaction with a more modern, enjoyable, and effective teaching method. Our platform helps you improve your teaching business by offering tools that enhance both instructor and student experiences. Differentiate yourself from the competition and unlock new potential with our innovative solutions.</p>',
     imageUrl: '/demo-illustration-3.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Zero cost for teachers and its students ',
+    title: 'Zero cost for teachers and their students',
     description:
-      '<p>Our business model allows us to offer to teachers and education business our platform solution for free. Only individuals who want the premium subscription have to pay.</p>',
+      '<p>Our business model allows us to provide educators and education businesses with free access to our platform. Teachers and students can use all essential features at no cost, creating a seamless and accessible learning experience. Only individuals who opt for our premium subscription will have additional features and perks to enhance their experience.</p>',
     imageUrl: '/demo-illustration-4.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'Boost your students learning',
+    title: 'Boost your students\' learning',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>Take your students’ learning experience to the next level. Our platform equips you with powerful tools to engage students, track progress, and personalize lessons. By providing a more interactive and hands-on approach, you’ll help students absorb information more effectively, leading to better outcomes and higher satisfaction.</p>',
     imageUrl: '/demo-illustration-5.png',
     baseColor: '88,193,132',
     secondColor: '124,207,158',

@@ -7,40 +7,33 @@ import SectionTitle from 'components/SectionTitle';
 export default function PricingTablesSection() {
   return (
     <Wrapper>
-      <SectionTitle>Flexible pricing for agile teams</SectionTitle>
+      <SectionTitle>A Subscription to Suit Every Need</SectionTitle>
       <AutofitGrid>
         <PricingCard
-          title="free"
-          description="Give us a try for free"
-          benefits={['1 seat', '1 active project', 'Ulimited viewers', '10 blocks']}
+          title="Academia"
+          description="Ideal for educators and their students."
+          benefits={['For business instructors', 'Language teachers', 'Classroom students']}
         >
           $0<span>/month</span>
         </PricingCard>
         <PricingCard
-          title="Starter"
-          description="Best for individual desginers"
-          benefits={['1 seat', '3 active project', 'Ulimited viewers', '100 blocks', 'CSV Downloader', 'Password protection']}
+          title="Personal Free"
+          description="Perfect for independent language learners."
+          benefits={['Self-guided learners without instructors']}
           isOutlined
         >
-          $29<span>/month</span>
+          $0<span>/month</span>
         </PricingCard>
         <PricingCard
-          title="Premium"
-          description="Get your team together"
-          benefits={[
-            '10 seat',
-            '10 active project',
-            'Ulimited viewers',
-            'Unlimited blocks',
-            'CSV Downloader',
-            'Password protection',
-            'Customization',
-          ]}
+          title="Personal Premium"
+          description="Unlock your full learning potential."
+          benefits={['Committed solo learners', 'Classroom students aiming for excellence']}
         >
-          $79<span>/month</span>
+          $12<span>/month</span>
         </PricingCard>
       </AutofitGrid>
     </Wrapper>
+
   );
 }
 

@@ -13,21 +13,21 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>Enhance Your Teaching Journey with Us</OverTitle>
+          <SectionTitle>Transform Your Classroom Experience</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Unlock new possibilities in your teaching experience. From effective strategies to innovative tools, we're here to support your growth and make a lasting impact on your students.
           </Description>
+
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+                Start now <span>&rarr;</span>
               </Button>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                Get a 30 min call <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </ButtonGroup>
