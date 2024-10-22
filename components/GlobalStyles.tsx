@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
   --textSecondary: 255,255,255;
   --tertiary: 1, 60, 88; /* moustache */
   --secondary: 48, 132, 161; /* armchair */
-  --primary: 245, 162, 1; /* orange */
+  --primary:245, 162, 1;/* 248, 188, 28 orange */
   --cardBackground: 255,255,255;
   --inputBackground: 255,255,255;
   --navbarBackground: 255,255,255;

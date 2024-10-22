@@ -166,8 +166,8 @@ const NavItemWrapper = styled.li<Partial<SingleNavItem>>`
 const NavbarContainer = styled.div<NavbarContainerProps>`
   display: flex;
   position: sticky;
-  top: 1em;
-  padding: 1.5rem 0.25rem;
+  top: 0em;
+  padding: 2.5rem 0rem 0rem 0rem;
   width: 100%;
   height: 10rem;
   z-index: var(--z-navbar);
