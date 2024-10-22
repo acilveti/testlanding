@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>Boost Your teaching with LingoLounge</CustomOverTitle>
+        <CustomOverTitle>Boost Your teaching with LangoMango</CustomOverTitle>
         <Heading>Elevate Your Teaching Business with Our Language Platform</Heading>
         <Description>
           Enhance your students learning experience with tools that improve lesson quality and student engagement. Our platform works alongside your methods to boost student outcomes, helping you deliver more effective lessons. Set yourself apart from other educators and academies by providing an enriched learning environment that leads to higher profitability - all at zero cost.

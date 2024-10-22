@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import MailchimpSubscribe, { DefaultFormFields } from 'react-mailchimp-subscribe';
 import styled from 'styled-components';
-import { EnvVars } from 'env';
+import { EnvVars } from 'env.production';
 import useEscClose from 'hooks/useEscKey';
 import { media } from 'utils/media';
 import Button from './Button';

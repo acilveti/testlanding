@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { jsonLdScriptProps } from 'react-schemaorg';
 import { TechArticle, WebSite } from 'schema-dts';
-import { EnvVars } from 'env';
+import { EnvVars } from 'env.production';
 
 interface StructuredDataHeadProps {
   slug: string;

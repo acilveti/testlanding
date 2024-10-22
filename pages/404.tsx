@@ -1,39 +1,37 @@
-import styled from 'styled-components';
-import Container from 'components/Container';
-import NotFoundIllustration from 'components/NotFoundIllustration';
+// pages/404.js
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import axios from 'axios';
+import { logPageVisit } from 'services/logServices';
 
-export default function NotFoundPage() {
+const Custom404 = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    const logNotFoundVisit = async () => {
+      try {
+        // Capture the attempted URL using router.asPath
+        const attemptedRoute = router.asPath;
+
+        await logPageVisit(attemptedRoute);
+
+      } catch (error) {
+        console.error('Error logging 404 visit:', error);
+      }
+
+      // Redirect to the homepage after the API call
+      router.push('/');
+    };
+
+    logNotFoundVisit();
+  }, [router]);
+
   return (
-    <Wrapper>
-      <Container>
-        <ImageContainer>
-          <NotFoundIllustration />
-        </ImageContainer>
-        <Title>404</Title>
-        <Description>Oh, that&apos;s unfortunate! Page not found 😔</Description>
-      </Container>
-    </Wrapper>
+    <div>
+      <h1>404 - Page Not Found</h1>
+      <p>Redirecting to the homepage...</p>
+    </div>
   );
-}
+};
 
-const Wrapper = styled.div`
-  background: rgb(var(--background));
-  margin: 10rem 0;
-  text-align: center;
-`;
-
-const Title = styled.h1`
-  font-size: 5rem;
-  margin-top: 5rem;
-`;
-
-const Description = styled.div`
-  font-size: 3rem;
-  opacity: 0.8;
-  margin-top: 2.5rem;
-`;
-
-const ImageContainer = styled.div`
-  width: 25rem;
-  margin: auto;
-`;
+export default Custom404;

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection';
 import Link from 'components/Link';
-import { EnvVars } from 'env';
+import { EnvVars } from 'env.production';
 import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
@@ -30,7 +30,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           {/* <Partners /> */}
           <BasicSection imageUrl="/demo-illustration-1.svg" title="Designed with student and teacher experience in mind" overTitle="All in one solution">
             <p>
-              The LingoLounge platform is thoughtfully designed to enhance both student and teacher experiences. It offers a range of tools aimed at making learning more engaging, effective, and enjoyable. From easy-to-use features to a variety of interactive elements, the platform is built to ensure a seamless learning journey, all guided by the expertise of teachers.
+              The LangoMango platform is thoughtfully designed to enhance both student and teacher experiences. It offers a range of tools aimed at making learning more engaging, effective, and enjoyable. From easy-to-use features to a variety of interactive elements, the platform is built to ensure a seamless learning journey, all guided by the expertise of teachers.
             </p>
             <ul>
               <li>Easy-to-Use Tools</li>
