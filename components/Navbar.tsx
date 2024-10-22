@@ -143,7 +143,7 @@ const NavItemWrapper = styled.li<Partial<SingleNavItem>>`
   text-transform: uppercase;
   line-height: 2;
   margin-left:1.25em;
-
+  
   &:hover {
     background-color: ${(p) => (p.outlined ? 'rgb(var(--primary), 0.8)' : 'transparent')};
     transition: background-color 0.2s;
@@ -166,7 +166,7 @@ const NavItemWrapper = styled.li<Partial<SingleNavItem>>`
 const NavbarContainer = styled.div<NavbarContainerProps>`
   display: flex;
   position: sticky;
-  top: 0;
+  top: 1em;
   padding: 1.5rem 0.25rem;
   width: 100%;
   height: 10rem;
