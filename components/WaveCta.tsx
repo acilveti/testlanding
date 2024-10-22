@@ -23,14 +23,9 @@ export default function WaveCta() {
         <Container>
           <Title>Stand out from the competition, take the step.</Title>
           <CustomButtonGroup>
-            <Button onClick={() => setIsModalOpened(true)}>
+            <Button href="https://app.langomango.com/sign-up">
               Create an account <span>&rarr;</span>
             </Button>
-            <NextLink href="/features" passHref>
-              <OutlinedButton transparent>
-                Schedule a 30 call <span>&rarr;</span>
-              </OutlinedButton>
-            </NextLink>
           </CustomButtonGroup>
         </Container>
       </CtaWrapper>

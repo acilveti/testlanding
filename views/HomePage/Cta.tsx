@@ -20,15 +20,10 @@ export default function Cta() {
           </Description>
 
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
+            <NextLink href="https://app.langomango.com/sign-up" passHref>
               <Button>
-                Start now <span>&rarr;</span>
+                Take a tour <span>&rarr;</span>
               </Button>
-            </NextLink>
-            <NextLink href="#whitepaper" passHref>
-              <OutlinedButton transparent>
-                Get a 30 min call <span>&rarr;</span>
-              </OutlinedButton>
             </NextLink>
           </ButtonGroup>
         </Stack>

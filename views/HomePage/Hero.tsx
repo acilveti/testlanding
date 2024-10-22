@@ -21,7 +21,7 @@ export default function Hero() {
           Enhance your students learning experience with tools that improve lesson quality and student engagement. Our platform works alongside your methods to boost student outcomes, helping you deliver more effective lessons. Set yourself apart from other educators and academies by providing an enriched learning environment that leads to higher profitability - all at zero cost.
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
+          <Button href="https://app.langomango.com/sign-up" >
             start now <span>&rarr;</span>
           </Button>
         </CustomButtonGroup>

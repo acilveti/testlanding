@@ -30,7 +30,7 @@ export default function PricingCard({ title, description, benefits, isOutlined, 
           </CustomRichText>
         )}
       </PriceContainer>
-      <CustomButton>Get started</CustomButton>
+      <CustomButton href="https://app.langomango.com/sign-up" >Get started</CustomButton>
     </Wrapper>
   );
 }

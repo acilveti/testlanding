@@ -13,38 +13,41 @@ const footerItems: FooterItems = [
   {
     title: 'Company',
     items: [
+      { title: 'About Us', href: '/about' },
+      { title: 'Careers', href: '/careers' },
       { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Cookies Policy', href: '/cookies-policy' },
+      { title: 'Terms of Service', href: '/terms-of-service' },
     ],
   },
   {
     title: 'Product',
     items: [
       { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Pricing', href: '/pricing' },
+      { title: 'Mobile App', href: '/mobile-app' },
+      { title: 'Languages Offered', href: '/languages' },
     ],
   },
   {
-    title: 'Knowledge',
+    title: 'Resources',
     items: [
       { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
-      { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
+      { title: 'Learning Tips', href: '/learning-tips' },
+      { title: 'Webinars', href: '/webinars' },
+      { title: 'Case Studies', href: '/case-studies' },
     ],
   },
   {
-    title: 'Something',
+    title: 'Support',
     items: [
-      { title: 'Features2', href: '/features2' },
-      { title: 'Something2', href: '/something2' },
-      { title: 'Something else2', href: '/something-else2' },
-      { title: 'And something else2', href: '/and-something-else2' },
+      { title: 'Help Center', href: '/help-center' },
+      { title: 'FAQ', href: '/faq' },
+      { title: 'Contact Support', href: '/contact' },
+      { title: 'Community Forum', href: '/community-forum' },
     ],
   },
 ];
+
 
 export default function Footer() {
   return (
