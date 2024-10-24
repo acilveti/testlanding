@@ -21,7 +21,7 @@ export default function Cta() {
 
           <ButtonGroup>
             <NextLink data-umami-event="cta button" href="https://app.langomango.com/sign-up" passHref>
-              <Button>
+              <Button data-umami-event="cta button">
                 Take a tour <span>&rarr;</span>
               </Button>
             </NextLink>
