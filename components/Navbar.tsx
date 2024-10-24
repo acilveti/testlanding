@@ -98,7 +98,7 @@ function NavItem({ href, title, outlined }: SingleNavItem) {
 
   return (
     <NavItemWrapper outlined={outlined}>
-      <NextLink href={href} passHref>
+      <NextLink data-umami-event="navbar button" href={href} passHref>
         <a>{title}</a>
       </NextLink>
     </NavItemWrapper>
